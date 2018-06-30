@@ -281,7 +281,6 @@
 
 a {
     text-decoration: none;
-    color: #111;
 }
 
 .btn__content {
