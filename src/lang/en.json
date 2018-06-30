@@ -1,0 +1,43 @@
+{
+  "_comment": "ENGLISH",
+  "menu":{
+    "title":"Dronpic",
+    "lang":"Language",
+    "menu":"Menu",
+    "opening":"opening",
+    "closing":"closing",
+    "award":"award",
+    "games":"games",
+    "point":"point",
+    "rule":"rules",
+    "stadium":"stadiums",
+    "facilities":"facilities",
+    "operating":"operating",
+    "organization":"organization",
+    "summary":"summary"
+
+  },
+  "games": {
+    "Team":"Dron Racing Team Competition",
+    "Private":"Dron Racing Private Competition",
+    "Accurate":"Accurate Flying",
+    "Fpv":"Free Style FPV",
+    "Feagure":"Feagure Flying Free Style",
+    "Gravity":"Gravity Gates",
+    "Balloon":"Balloon Shooting",
+    "Junior":"Junior Competition"
+
+  },
+
+  "commitee": {
+    "outline":"Outline",
+    "organization":"Organization"
+  },
+
+  "footer": {
+    "description": "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "maker": "umanji"
+  },
+  "hello": "Hello~",
+  "messages": "Your message..."
+}
