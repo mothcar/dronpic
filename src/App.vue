@@ -93,7 +93,7 @@
                                 size="36px"
                                 >
                                 <img
-                                src="./assets/logo-kor.png"
+                                src="./assets/logo.png"
                                 alt=""
                                 >
                             </v-avatar>
