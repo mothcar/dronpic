@@ -6,29 +6,31 @@
             <!-- <v-navigation-drawer app></v-navigation-drawer> -->
             <!-- Large **********************************************************-->
             <v-toolbar app class="hidden-sm-and-down" fixed>
-                <v-flex xs4 sm2 md1>
-                    <v-avatar
-                    slot="activator"
-                    size="36px"
-                    >
-                    <img
-                    src="./assets/logo-kor.png"
-                    alt=""
-                    >
-                </v-avatar> </v-flex>
+                <router-link to="/">
+                    <v-flex xs4 sm2 md1>
+                        <v-avatar
+                        slot="activator"
+                        size="36px"
+                        >
+                        <img
+                        src="./assets/logo-kor.png"
+                        alt=""
+                        >
+                    </v-avatar> </v-flex> 
+                </router-link>
                 <v-toolbar-title>
                     <router-link class="nav-item" to="/">{{ $lang.menu.title }}</router-link>
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
                 <v-toolbar-items>
                     <v-btn flat="flat">
-                        <router-link class="nav-item" to="/about">{{ $lang.menu.opening }}</router-link>
+                        <router-link class="nav-item" to="/opening">{{ $lang.menu.opening }}</router-link>
                     </v-btn>
                     <v-btn flat="flat">
-                        <router-link class="nav-item" to="/contact">{{ $lang.menu.closing }}</router-link>
+                        <router-link class="nav-item" to="/closing">{{ $lang.menu.closing }}</router-link>
                     </v-btn>
                     <v-btn flat="flat">
-                        <router-link class="nav-item" to="/about">{{ $lang.menu.award }}</router-link>
+                        <router-link class="nav-item" to="/award">{{ $lang.menu.award }}</router-link>
                     </v-btn>
 
                     <!-- <div class="text-xs-center"> -->
@@ -44,13 +46,13 @@
 
 
                     <v-btn flat="flat">
-                        <router-link class="nav-item" to="/about">{{ $lang.menu.rule }}</router-link>
+                        <router-link class="nav-item" to="/rules">{{ $lang.menu.rule }}</router-link>
                     </v-btn>
                     <v-btn flat="flat">
-                        <router-link class="nav-item" to="/contact">{{ $lang.menu.stadium }}</router-link>
+                        <router-link class="nav-item" to="/stadium">{{ $lang.menu.stadium }}</router-link>
                     </v-btn>
                     <v-btn flat="flat">
-                        <router-link class="nav-item" to="/about">{{ $lang.menu.facilities }}</router-link>
+                        <router-link class="nav-item" to="/facility">{{ $lang.menu.facilities }}</router-link>
                     </v-btn>
                     <v-menu offset-y open-on-hover>
                         <v-btn slot="activator" flat="flat">{{ $lang.menu.operating }}</v-btn>
@@ -145,7 +147,7 @@
 
             <v-list-tile >
                 <v-list-tile-content>
-                    <router-link class="nav-item" to="/opening">
+                    <router-link class="nav-item" to="/closing">
                         <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.closing }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
@@ -153,7 +155,7 @@
 
             <v-list-tile >
                 <v-list-tile-content>
-                    <router-link class="nav-item" to="/opening">
+                    <router-link class="nav-item" to="/award">
                         <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.award }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
@@ -174,7 +176,7 @@
 
             <v-list-tile >
                 <v-list-tile-content>
-                    <router-link class="nav-item" to="/opening">
+                    <router-link class="nav-item" to="/rules">
                         <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.rule }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
@@ -182,7 +184,7 @@
 
             <v-list-tile >
                 <v-list-tile-content>
-                    <router-link class="nav-item" to="/opening">
+                    <router-link class="nav-item" to="/stadium">
                         <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.stadium }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
@@ -190,7 +192,7 @@
 
             <v-list-tile >
                 <v-list-tile-content>
-                    <router-link class="nav-item" to="/opening">
+                    <router-link class="nav-item" to="/facility">
                         <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.facilities }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
@@ -358,17 +360,17 @@ export default {
         right: true,
         rightDrawer: false,
         games: [
-            { title: '1', route:'/opening'},
-            { title: '2' },
-            { title: '3' },
-            { title: '4' },
-            { title: '5' },
-            { title: '6' },
-            { title: '7' },
-            { title: '8' }
+            { title: '1', route:'/team'},
+            { title: '2', route:'/private' },
+            { title: '3', route:'/accurate' },
+            { title: '4', route:'/free' },
+            { title: '5', route:'/feagure' },
+            { title: '6', route:'/gravity' },
+            { title: '7', route:'/balloon' },
+            { title: '8', route:'/junior' }
         ],
         commitee: [
-            { title: '1', route:'/opening' },
+            { title: '1', route:'/outline' },
             { title: '2', route: '/org' }
         ]
     }),
