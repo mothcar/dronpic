@@ -25,7 +25,7 @@
   <br />
   <h4 class="text-md-center">{{ $lang.main_comments.likeBee}}</h4></div></div></div></v-flex > -->
 
-  <v-app >
+  <v-container class="px-0">
 
     <v-parallax :src="require('@/assets/main_bg.jpg')">
 
@@ -56,7 +56,7 @@
 
     </v-parallax>
 
-  </v-app>
+  </v-container >
 
   <!-- </v-flex> -->
 
@@ -83,7 +83,7 @@ export default {
 
 .v-subheader {
   font-size: 20px;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 2%;
   margin-bottom: 1%;
 }
