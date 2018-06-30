@@ -3,120 +3,125 @@
 
 
 
-            <!-- <v-navigation-drawer app></v-navigation-drawer> -->
+        <!-- <v-navigation-drawer app></v-navigation-drawer> -->
+        <!-- Large **********************************************************-->
+
+
+
+        <v-toolbar app class="hidden-sm-and-down" fixed>
+            <router-link to="/">
+                <v-flex xs4 sm2 md1>
+                    <v-avatar
+                    slot="activator"
+                    size="36px"
+                    >
+                    <img
+                    src="./assets/logo.png"
+                    alt=""
+                    >
+                </v-avatar> </v-flex>
+            </router-link>
+            <v-toolbar-title>
+                <router-link class="nav-item" to="/">{{ $lang.menu.title }}</router-link>
+            </v-toolbar-title>
+            <v-spacer></v-spacer>
+
+
+            <v-toolbar-items>
+
+
+                <!-- <div class="text-xs-center"> -->
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/introduce">{{ $lang.menu.introduce }}</router-link>
+                </v-btn>
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/greeting">{{ $lang.menu.greeting }}</router-link>
+                </v-btn>
+                <v-menu offset-y open-on-hover>
+                    <v-btn slot="activator" flat="flat">{{ $lang.menu.games }}</v-btn>
+                    <v-list>
+                        <v-list-tile v-for="(item, index) in games" :key="index" @click="" :to="item.route">
+                            <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+                        </v-list-tile>
+                    </v-list>
+                </v-menu>
+                <!-- </div> -->
+
+
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/rules">{{ $lang.menu.rule }}</router-link>
+                </v-btn>
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/stadium">{{ $lang.menu.stadium }}</router-link>
+                </v-btn>
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/facility">{{ $lang.menu.facilities }}</router-link>
+                </v-btn>
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/opening">{{ $lang.menu.opening }}</router-link>
+                </v-btn>
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/closing">{{ $lang.menu.closing }}</router-link>
+                </v-btn>
+                <v-btn flat="flat">
+                    <router-link class="nav-item" to="/award">{{ $lang.menu.award }}</router-link>
+                </v-btn>
+                <v-menu offset-y open-on-hover>
+                    <v-btn slot="activator" flat="flat">{{ $lang.menu.operating }}</v-btn>
+                    <v-list>
+                        <v-list-tile v-for="(item, index) in commitee" :key="index" @click="" :to="item.route">
+                            <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+                        </v-list-tile>
+                    </v-list>
+                </v-menu>
+            </v-toolbar-items>
+
+            <div class="select-style">
+                <select v-on:change="changeLang" v-model="currentLocale">
+                    <option value="kr">Korean</option>
+                    <option value="en">English</option> </select>
+                </div>
+
+
+
+            </v-toolbar>
             <!-- Large **********************************************************-->
-            <v-toolbar app class="hidden-sm-and-down" fixed>
-                <router-link to="/">
-                    <v-flex xs4 sm2 md1>
-                        <v-avatar
-                        slot="activator"
-                        size="36px"
-                        >
-                        <img
-                        src="./assets/logo.png"
-                        alt=""
-                        >
-                    </v-avatar> </v-flex>
+            <!-- Mobile *********************************************************-->
+            <nav>
+            <div app class="hidden-md-and-up">
+                <v-toolbar fixed>
+                    <router-link to="/">
+                        <v-flex xs1 sm2 md1>
+                            <v-avatar
+                            slot="activator"
+                            size="36px"
+                            >
+                            <img
+                            src="./assets/logo.png"
+                            alt=""
+                            >
+                        </v-avatar>
+                    </v-flex>
                 </router-link>
                 <v-toolbar-title>
                     <router-link class="nav-item" to="/">{{ $lang.menu.title }}</router-link>
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
-
-
-                <v-toolbar-items>
-
-
-                    <!-- <div class="text-xs-center"> -->
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/introduce">{{ $lang.menu.introduce }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/greeting">{{ $lang.menu.greeting }}</router-link>
-                    </v-btn>
-                    <v-menu offset-y open-on-hover>
-                        <v-btn slot="activator" flat="flat">{{ $lang.menu.games }}</v-btn>
-                        <v-list>
-                            <v-list-tile v-for="(item, index) in games" :key="index" @click="" :to="item.route">
-                                <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-                            </v-list-tile>
-                        </v-list>
-                    </v-menu>
-                    <!-- </div> -->
-
-
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/rules">{{ $lang.menu.rule }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/stadium">{{ $lang.menu.stadium }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/facility">{{ $lang.menu.facilities }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/opening">{{ $lang.menu.opening }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/closing">{{ $lang.menu.closing }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/award">{{ $lang.menu.award }}</router-link>
-                    </v-btn>
-                    <v-menu offset-y open-on-hover>
-                        <v-btn slot="activator" flat="flat">{{ $lang.menu.operating }}</v-btn>
-                        <v-list>
-                            <v-list-tile v-for="(item, index) in commitee" :key="index" @click="" :to="item.route">
-                                <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-                            </v-list-tile>
-                        </v-list>
-                    </v-menu>
-                </v-toolbar-items>
+                <v-btn icon @click.stop="rightDrawer = !rightDrawer">
+                    <v-icon>menu</v-icon>
+                </v-btn>
 
                 <div class="select-style">
                     <select v-on:change="changeLang" v-model="currentLocale">
                         <option value="kr">Korean</option>
-                        <option value="en">English</option> </select>
-                    </div>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </v-toolbar>
 
-
-
-                </v-toolbar>
-                <!-- Large **********************************************************-->
-                <!-- Mobile *********************************************************-->
-                <div app class="hidden-md-and-up">
-                    <v-toolbar fixed>
-                        <router-link to="/">
-                            <v-flex xs1 sm2 md1>
-                                <v-avatar
-                                slot="activator"
-                                size="36px"
-                                >
-                                <img
-                                src="./assets/logo.png"
-                                alt=""
-                                >
-                            </v-avatar>
-                        </v-flex>
-                    </router-link>
-                    <v-toolbar-title>
-                        <router-link class="nav-item" to="/">{{ $lang.menu.title }}</router-link>
-                    </v-toolbar-title>
-                    <v-spacer></v-spacer>
-                    <v-btn icon @click.stop="rightDrawer = !rightDrawer">
-                        <v-icon>menu</v-icon>
-                    </v-btn>
-
-                    <div class="select-style">
-                        <select v-on:change="changeLang" v-model="currentLocale">
-                            <option value="kr">Korean</option>
-                            <option value="en">English</option>
-                        </select>
-                    </div>
-                </v-toolbar>
-
-            </div>
-            <!-- Mobile *********************************************************-->
+        </div>
+        </nav>
+        <!-- Mobile *********************************************************-->
 
         <!-- Navigation *********************************************************-->
         <!-- Navigation Drawer **************************************************-->
@@ -241,15 +246,20 @@
 
 
         </v-list> </v-navigation-drawer>
+
         <!-- Navigation Drawer **************************************************-->
 
 
         <!-- Content ************************************************************-->
-        <v-container fluid fill-height class="px-0">
-            <!-- <v-layout flex align-center justify-center> -->
+
+            <v-content >
+
+                <!-- fill-height -->
+                <!-- <v-layout flex align-center justify-center> -->
                 <router-view/>
-            <!-- </v-layout> -->
-        </v-container>
+                <!-- </v-layout> -->
+            </v-content>
+
         <!-- Content ************************************************************-->
 
 

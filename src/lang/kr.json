@@ -1,8 +1,13 @@
 {
   "_comment": "한국어",
+  "_order": {
+    "main":"메인",
+    "concept":"컨셉"
+  },
   "menu":{
     "home": "홈",
-    "title":"드론픽위원회",
+    "title":"드론픽",
+    "sub_title":"국제 드론픽 위원회",
     "lang":"언어",
     "menu":"메뉴",
     "introduce":"소개",
@@ -36,7 +41,10 @@
     "organization":"조직도"
   },
   "main_comments": {
-    "innovation":"혁신적인 기술로 비상하다"
+    "innovation":"혁신적인 기술로 비상하다.",
+    "beOne":"스포츠로 하나돼 비상하다.",
+    "youngDream":"젊은이의 꿈으로 비상하다.",
+    "likeBee":"그 비상은 “벌이 낮게 웅웅거리는 소리”에서 시작되었다."
   },
 
   "footer": {

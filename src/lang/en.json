@@ -1,8 +1,15 @@
 {
   "_comment": "ENGLISH",
+
+  "_order": {
+    "main":"Main",
+    "concept":"Concept"
+  },
+
   "menu":{
     "home": "Home",
-    "title":"Dronpic Commitee",
+    "title":"DRONPIC",
+    "sub_title":"INTERNATIONAL DRONPIC COMMITTEE",
     "lang":"Language",
     "menu":"Menu",
     "introduce":"Introduce",
@@ -22,7 +29,10 @@
   },
 
   "main_comments": {
-    "innovation":"Break out with innovative technology"
+    "innovation":"Break out with innovative technology.",
+    "beOne":"It becomes one with sports and fly.",
+    "youngDream":"Emerged as a young man's dream.",
+    "likeBee":"The emergency began with 'the bee screaming low'."
   },
   "games": {
     "Team":"Dron Racing Team Competition",
