@@ -1,6 +1,7 @@
 {
   "_comment": "ENGLISH",
   "menu":{
+    "home": "Home",
     "title":"Dronpic",
     "lang":"Language",
     "menu":"Menu",

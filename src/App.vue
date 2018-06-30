@@ -127,11 +127,10 @@
         <v-divider></v-divider>
         <v-list dense class="pt-1">
 
-
             <v-list-tile >
                 <v-list-tile-content>
-                    <router-link class="nav-item" to="/opening">
-                        <v-list-tile-title >{{ $lang.menu.opening }}</v-list-tile-title>
+                    <router-link class="nav-item" to="/">
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer">{{ $lang.menu.home }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
             </v-list-tile>
@@ -139,7 +138,7 @@
             <v-list-tile >
                 <v-list-tile-content>
                     <router-link class="nav-item" to="/opening">
-                        <v-list-tile-title >{{ $lang.menu.closing }}</v-list-tile-title>
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer">{{ $lang.menu.opening }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
             </v-list-tile>
@@ -147,7 +146,15 @@
             <v-list-tile >
                 <v-list-tile-content>
                     <router-link class="nav-item" to="/opening">
-                        <v-list-tile-title >{{ $lang.menu.award }}</v-list-tile-title>
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.closing }}</v-list-tile-title>
+                    </router-link>
+                </v-list-tile-content>
+            </v-list-tile>
+
+            <v-list-tile >
+                <v-list-tile-content>
+                    <router-link class="nav-item" to="/opening">
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.award }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
             </v-list-tile>
@@ -168,7 +175,7 @@
             <v-list-tile >
                 <v-list-tile-content>
                     <router-link class="nav-item" to="/opening">
-                        <v-list-tile-title >{{ $lang.menu.rule }}</v-list-tile-title>
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.rule }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
             </v-list-tile>
@@ -176,7 +183,7 @@
             <v-list-tile >
                 <v-list-tile-content>
                     <router-link class="nav-item" to="/opening">
-                        <v-list-tile-title >{{ $lang.menu.stadium }}</v-list-tile-title>
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.stadium }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
             </v-list-tile>
@@ -184,7 +191,7 @@
             <v-list-tile >
                 <v-list-tile-content>
                     <router-link class="nav-item" to="/opening">
-                        <v-list-tile-title >{{ $lang.menu.facilities }}</v-list-tile-title>
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.facilities }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
             </v-list-tile>
@@ -252,6 +259,10 @@
 </template>
 
 <style>
+.v-list__tile__title{
+    color: #1976D2;
+}
+
 .v-btn__content {
     color: #1976D2;
 
