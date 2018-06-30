@@ -1,29 +1,21 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      INTERNATIONAL DRONPIC COMMITTE
-    </p>
-    <h3>Link Test</h3>
-    <ul>
-      <li><a href="https://naver.com" target="_blank">Naver</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://google.com" target="_blank">Google</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="http://www.me.go.kr/home/web/main.do" target="_blank">대한민국 환경부</a></li>
-    </ul>
-  </div>
+    <div class="home">
+      <img src="../assets/logo.png">
+      <HelloWorld msg="2018 DRONPIC"/>
+
+    </div>
+
+
 </template>
 
 <script>
+import HelloWorld from '../components/HelloWorld.vue'
 export default {
-  name: 'HelloWorld',
+  components: {
+    HelloWorld
+  },
+  
   props: {
-    msg: String
   }
 }
 </script>

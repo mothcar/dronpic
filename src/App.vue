@@ -252,6 +252,11 @@
 </template>
 
 <style>
+.v-btn__content {
+    color: #1976D2;
+
+
+}
 .select-style {
     border: 1px solid #ccc;
     width: auto;
@@ -276,6 +281,7 @@
 
 a {
     text-decoration: none;
+    color: #111;
 }
 
 .btn__content {
