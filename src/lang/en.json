@@ -2,9 +2,11 @@
   "_comment": "ENGLISH",
   "menu":{
     "home": "Home",
-    "title":"Dronpic",
+    "title":"Dronpic Commitee",
     "lang":"Language",
     "menu":"Menu",
+    "introduce":"Introduce",
+    "greeting":"Greeting",
     "opening":"opening",
     "closing":"closing",
     "award":"award",
@@ -17,6 +19,10 @@
     "organization":"organization",
     "summary":"summary"
 
+  },
+
+  "main_comments": {
+    "innovation":"Break out with innovative technology"
   },
   "games": {
     "Team":"Dron Racing Team Competition",

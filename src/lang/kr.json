@@ -2,9 +2,11 @@
   "_comment": "한국어",
   "menu":{
     "home": "홈",
-    "title":"드론픽",
+    "title":"드론픽위원회",
     "lang":"언어",
     "menu":"메뉴",
+    "introduce":"소개",
+    "greeting":"인사말",
     "opening":"개막식",
     "closing":"폐막식",
     "award":"시상",
@@ -13,7 +15,7 @@
     "rule":"경기규정",
     "stadium":"경기장",
     "facilities":"부대시설",
-    "operating":"운영위원회",
+    "operating":"조직위원회",
     "organization":"조직도",
     "summary":"개요"
 
@@ -32,6 +34,9 @@
   "commitee": {
     "outline":"개요",
     "organization":"조직도"
+  },
+  "main_comments": {
+    "innovation":"혁신적인 기술로 비상하다"
   },
 
   "footer": {

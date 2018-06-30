@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <nav>
+
 
 
             <!-- <v-navigation-drawer app></v-navigation-drawer> -->
@@ -13,27 +13,27 @@
                         size="36px"
                         >
                         <img
-                        src="./assets/logo-kor.png"
+                        src="./assets/logo.png"
                         alt=""
                         >
-                    </v-avatar> </v-flex> 
+                    </v-avatar> </v-flex>
                 </router-link>
                 <v-toolbar-title>
                     <router-link class="nav-item" to="/">{{ $lang.menu.title }}</router-link>
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
+
+
                 <v-toolbar-items>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/opening">{{ $lang.menu.opening }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/closing">{{ $lang.menu.closing }}</router-link>
-                    </v-btn>
-                    <v-btn flat="flat">
-                        <router-link class="nav-item" to="/award">{{ $lang.menu.award }}</router-link>
-                    </v-btn>
+
 
                     <!-- <div class="text-xs-center"> -->
+                    <v-btn flat="flat">
+                        <router-link class="nav-item" to="/introduce">{{ $lang.menu.introduce }}</router-link>
+                    </v-btn>
+                    <v-btn flat="flat">
+                        <router-link class="nav-item" to="/greeting">{{ $lang.menu.greeting }}</router-link>
+                    </v-btn>
                     <v-menu offset-y open-on-hover>
                         <v-btn slot="activator" flat="flat">{{ $lang.menu.games }}</v-btn>
                         <v-list>
@@ -53,6 +53,15 @@
                     </v-btn>
                     <v-btn flat="flat">
                         <router-link class="nav-item" to="/facility">{{ $lang.menu.facilities }}</router-link>
+                    </v-btn>
+                    <v-btn flat="flat">
+                        <router-link class="nav-item" to="/opening">{{ $lang.menu.opening }}</router-link>
+                    </v-btn>
+                    <v-btn flat="flat">
+                        <router-link class="nav-item" to="/closing">{{ $lang.menu.closing }}</router-link>
+                    </v-btn>
+                    <v-btn flat="flat">
+                        <router-link class="nav-item" to="/award">{{ $lang.menu.award }}</router-link>
                     </v-btn>
                     <v-menu offset-y open-on-hover>
                         <v-btn slot="activator" flat="flat">{{ $lang.menu.operating }}</v-btn>
@@ -77,17 +86,19 @@
                 <!-- Mobile *********************************************************-->
                 <div app class="hidden-md-and-up">
                     <v-toolbar fixed>
-                        <v-flex xs1 sm2 md1>
-                            <v-avatar
-                            slot="activator"
-                            size="36px"
-                            >
-                            <img
-                            src="./assets/logo-kor.png"
-                            alt=""
-                            >
-                        </v-avatar>
-                    </v-flex>
+                        <router-link to="/">
+                            <v-flex xs1 sm2 md1>
+                                <v-avatar
+                                slot="activator"
+                                size="36px"
+                                >
+                                <img
+                                src="./assets/logo-kor.png"
+                                alt=""
+                                >
+                            </v-avatar>
+                        </v-flex>
+                    </router-link>
                     <v-toolbar-title>
                         <router-link class="nav-item" to="/">{{ $lang.menu.title }}</router-link>
                     </v-toolbar-title>
@@ -106,7 +117,6 @@
 
             </div>
             <!-- Mobile *********************************************************-->
-        </nav>
 
         <!-- Navigation *********************************************************-->
         <!-- Navigation Drawer **************************************************-->
@@ -133,6 +143,23 @@
                 <v-list-tile-content>
                     <router-link class="nav-item" to="/">
                         <v-list-tile-title @click.stop="rightDrawer = !rightDrawer">{{ $lang.menu.home }}</v-list-tile-title>
+                    </router-link>
+                </v-list-tile-content>
+            </v-list-tile>
+
+
+            <v-list-tile >
+                <v-list-tile-content>
+                    <router-link class="nav-item" to="/introduce">
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer">{{ $lang.menu.introduce }}</v-list-tile-title>
+                    </router-link>
+                </v-list-tile-content>
+            </v-list-tile>
+
+            <v-list-tile >
+                <v-list-tile-content>
+                    <router-link class="nav-item" to="/greeting">
+                        <v-list-tile-title @click.stop="rightDrawer = !rightDrawer" >{{ $lang.menu.greeting }}</v-list-tile-title>
                     </router-link>
                 </v-list-tile-content>
             </v-list-tile>
@@ -217,17 +244,12 @@
         <!-- Navigation Drawer **************************************************-->
 
 
-
         <!-- Content ************************************************************-->
-        <v-content>
-            <v-container fluid>
-                <!-- <br />
-                <br />
-                <br /> -->
+        <v-container fluid fill-height class="px-0">
+            <!-- <v-layout flex align-center justify-center> -->
                 <router-view/>
-                <!-- <router-view></router-view> -->
-            </v-container>
-        </v-content>
+            <!-- </v-layout> -->
+        </v-container>
         <!-- Content ************************************************************-->
 
 
@@ -256,6 +278,7 @@
 
         </v-footer>
         <!-- Footer *************************************************************-->
+
     </v-app>
 
 </template>

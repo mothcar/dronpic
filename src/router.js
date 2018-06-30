@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
+import Introduce from './views/Introduce.vue'
+import Greeting from './views/Greeting.vue'
 import Opening from './views/Opening.vue'
 import Closing from './views/Closing.vue'
 import Award from './views/Award.vue'
@@ -33,6 +35,16 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: About
+    },
+    {
+      path: '/introduce',
+      name: 'introduce',
+      component: Introduce
+    },
+    {
+      path: '/greeting',
+      name: 'greeting',
+      component: Greeting
     },
     {
       path: '/opening',

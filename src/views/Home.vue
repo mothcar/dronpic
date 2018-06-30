@@ -1,10 +1,21 @@
 <template>
-    <div class="home">
-      <img src="../assets/logo.png">
-      <HelloWorld msg="2018 DRONPIC"/>
 
-    </div>
+  <v-layout app>
+    <v-flex xs12 sm12 >
+          <img class="responsive" src="../assets/main_bg.jpg">
+          <!-- <HelloWorld msg="2018 DRONPIC"/> -->
+          <br />
+          <div class="bgimg">
+            <br />
+            <br />
+            <br />
 
+            <h2>{{ $lang.main_comments.innovation}}</h2>
+
+          </div>
+          <img  />
+        </v-flex>
+      </v-layout>
 
 </template>
 
@@ -14,7 +25,7 @@ export default {
   components: {
     HelloWorld
   },
-  
+
   props: {
   }
 }
@@ -22,6 +33,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.bgimg {
+    background-image: url('../assets/cloud.jpg');
+    width:100%;
+    height: auto;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 h3 {
   margin: 40px 0 0;
 }
