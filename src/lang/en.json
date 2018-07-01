@@ -50,6 +50,14 @@
     "title": "Description of major events"
   },
 
+  "stadium_p": {
+    "title": "Stadiums",
+    "ms_title": "The main stadium is a stadium for operating precision flying and drone racing games.",
+    "ms_desc": "A racing stadium (field) is at least 150MX100M in size, and a stadium with a width of 15,000m² can be used if the length of one side is less than one. A transparent fence such as a mesh or acrylic should be installed around the field. A large electric signboard must be installed to provide the audience with FPV images of the drone. The main stadium should have all of the operations headquarters room (operation team + referee), step room (progress + skill + field agent), gas storage room.",
+    "ss_title": "The secondary stadium is a stadium for freestyle, figure-flying and balloon shooting.",
+    "ss_desc": "The size is at least 100M X 70M. If the length of one side is less than 7,000 square meters, it can be used as an auxiliary stadium. A transparent fence such as a mesh or acrylic should be installed around the field. Auxiliary stadiums must have the same level of auxiliary facilities (operational headquarters, staffer, stadium seats) to be used when the main stadium function is lost."
+  },
+
   "committee": {
     "outline":"Outline",
     "organization":"Organization"
