@@ -43,7 +43,13 @@
     "Gravity":"Gravity Gates",
     "Balloon":"Balloon Shooting",
     "Junior":"Junior Competition"
+  },
 
+  "supports": {
+    "title": "Supports",
+    "sup1": "Gwangju / Office of Education",
+    "sup2": "Korea Droinpic Committee",
+    "sup3": "International Droinpic Committee"
   },
 
   "rule_p": {

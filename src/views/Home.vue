@@ -55,6 +55,37 @@
 
     </v-parallax>
 
+<v-layout>
+  <v-flex>
+    <v-card flat>
+      <v-card-text>
+        <p class="headline text-lg-center">
+          {{ $lang.supports.title }}
+        </p>
+
+        <h2 class="subheader ">
+          {{ $lang.supports.sup1 }}
+        </h2>
+        <h2 class="subheader ">
+          {{ $lang.supports.sup2 }}
+        </h2>
+        <h2 class="subheader ">
+          {{ $lang.supports.sup3 }}
+        </h2>
+      </v-card-text>
+
+
+
+    </v-card>
+
+
+  </v-flex>
+
+</v-layout>
+
+
+
+
   </v-container >
 
   <!-- </v-flex> -->
