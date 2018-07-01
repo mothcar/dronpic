@@ -64,6 +64,18 @@
     "ss_desc": "The size is at least 100M X 70M. If the length of one side is less than 7,000 square meters, it can be used as an auxiliary stadium. A transparent fence such as a mesh or acrylic should be installed around the field. Auxiliary stadiums must have the same level of auxiliary facilities (operational headquarters, staffer, stadium seats) to be used when the main stadium function is lost."
   },
 
+  "facility_p": {
+    "title": "Facilities",
+    "fac1_title": "Event Hall",
+    "fac1_desc": "It should be located in the main stadium, in the middle of the auxiliary stadium or next to the main stadium and auxiliary stadium. Booths are provided for promoting and selling businesses, and fences using safety facilities (mesh) should also be installed to enable drone experience.",
+    "fac2_title": "Accommodation",
+    "fac2_desc": "More than 200 athletes and referees in about 20 countries must consider the distance to the stadium and have conference facilities for the event.",
+    "fac3_title": "Conference Room",
+    "fac3_desc": "It should be located in the hotel (hotel) for the convenience of participants. Progression of drones, drawing contests, and cooking contest awards ceremony will be held in the conference room, and dron job fair will be held in the same place.",
+    "fac4_title": "Competition",
+    "fac4_desc": "The first International Drone Pick game uses the Korean Drone Racing Association standard dragon racing gate (obstacle) or the same size obstacle, and the obstacle other than the standard gate can be used for the interest of the game."
+  },
+
   "committee": {
     "outline":"Outline",
     "organization":"Organization"
