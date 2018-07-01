@@ -48,7 +48,6 @@
       <v-layout align-center column justify-center>
         <h2 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.innovation}}</h2>
         <h2 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.beOne}}</h2>
-        <h2 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.beOne}}</h2>
         <h2 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.youngDream}}</h2>
         <br />
         <h4 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.likeBee}}</h4>
@@ -76,6 +75,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style >
+
+h2 {
+  -webkit-margin-before: 0.63em;
+  -webkit-margin-after: 0.63em;
+}
 
 .p_font_shadow {
   text-shadow: 2px 2px 8px #000;
