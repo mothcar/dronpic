@@ -35,8 +35,8 @@
     "likeBee":"The emergency began with 'the bee screaming low'."
   },
   "games": {
-    "Team":"Dron Racing Team Competition",
-    "Private":"Dron Racing Private Competition",
+    "Team":"Drone Racing Team Competition",
+    "Private":"Drone Racing Private Competition",
     "Accurate":"Accurate Flying",
     "Fpv":"Free Style FPV",
     "Feagure":"Feagure Flying Free Style",
@@ -48,14 +48,14 @@
   "supports": {
     "title": "Supports",
     "sup1": "Gwangju / Office of Education",
-    "sup2": "Korea Droinpic Committee",
-    "sup3": "International Droinpic Committee"
+    "sup2": "Korea Dronpic Committee",
+    "sup3": "International Dronpic Committee"
   },
 
   "team_p": {
     "title": "Major Games",
     "team_match_title": "Racing Team Match",
-    "team_match_desc": "It is a three-to-three group racing competition using medium-sized aircraft (330mm or more). Turn the course five times and earn points (points) in the order of arrival. You have to change the battery once while flying the 5 wheels. Replacing the battery is possible only on the feet line, and only one dron at a time is possible to replace the battery (battery replacement). A game in which all team members participate in a strategic use of battery replacement. Given the operational time before start, the operational time can be within 5 minutes and the operational time can be up to 5 times. The obstacles used in the team exhibition are the same as the individual exhibition, using the standard drone gate of the Korea Drone Racing Association. (See 3-4.) The design of the track (course) must be changed in the individual exhibition. It is a measure to prevent a player who participates only in a team event from disadvantage without participating in a solo exhibition. The team with the most points in the game wins. If the drones are unable to fly because they can not fly, they will not get points. The points by rank are as follows."
+    "team_match_desc": "It is a three-to-three group racing competition using medium-sized aircraft (330mm or more). Turn the course five times and earn points (points) in the order of arrival. You have to change the battery once while flying the 5 wheels. Replacing the battery is possible only on the feet line, and only one drone at a time is possible to replace the battery (battery replacement). A game in which all team members participate in a strategic use of battery replacement. Given the operational time before start, the operational time can be within 5 minutes and the operational time can be up to 5 times. The obstacles used in the team exhibition are the same as the individual exhibition, using the standard drone gate of the Korea Drone Racing Association. (See 3-4.) The design of the track (course) must be changed in the individual exhibition. It is a measure to prevent a player who participates only in a team event from disadvantage without participating in a solo exhibition. The team with the most points in the game wins. If the drones are unable to fly because they can not fly, they will not get points. The points by rank are as follows."
   },
 
   "private_p": {
@@ -67,7 +67,7 @@
   "accurate_p": {
     "title": "Major Games",
     "accurate_title": "Precision flying",
-    "accurate_desc": "A personal racing game using standard gas (200mm or more, 5-inch propeller) is used to determine the ranks in the order of passing through the narrow obstacles and passing the two wheels first. The total length of the course is 1KM (500m each). The valid pass area of ​​the gates used in precision flight is 80cm in height and 50cm in height, requiring precise control of the athlete. A total of 20 passages must pass and land correctly at the center of the landing point. Only one pilot at a time will fly and only rank purely. Even if the drones pass through the gate, time will be added to the final record if a portion of the drones touches the gate, and time will be added to the final record if they can not land within a 1M x 1M landing point. The small size of the drone is advantageous for flight racing, so the minimum size of the dron airframe is 200mm, and the pro paler size is at least 5 inches."
+    "accurate_desc": "A personal racing game using standard gas (200mm or more, 5-inch propeller) is used to determine the ranks in the order of passing through the narrow obstacles and passing the two wheels first. The total length of the course is 1KM (500m each). The valid pass area of ​​the gates used in precision flight is 80cm in height and 50cm in height, requiring precise control of the athlete. A total of 20 passages must pass and land correctly at the center of the landing point. Only one pilot at a time will fly and only rank purely. Even if the drones pass through the gate, time will be added to the final record if a portion of the drones touches the gate, and time will be added to the final record if they can not land within a 1M x 1M landing point. The small size of the drone is advantageous for flight racing, so the minimum size of the drone airframe is 200mm, and the pro paler size is at least 5 inches."
   },
 
   "free_p": {
@@ -157,7 +157,7 @@
     "open2_title": "Entry to the athletes (20 minutes)",
     "open2_desc": "As with the Olympic Games, drone picks are held in the same order as the Olympic Games. The organizers will explain the names of the participating countries and the names of the major players.",
     "open3_title": "Drones (Torch relay) (30 minutes)",
-    "open3_desc": "Leading drones (torch) flying for three days during the drone pick are controlled by the runners representing each country in order to maintain their position and altitude by the torch (tentative) position. The drones (torch) are landed by a representative player as part of the closing ceremony. The dron with the LED gives the same effect as the torch.",
+    "open3_desc": "Leading drones (torch) flying for three days during the drone pick are controlled by the runners representing each country in order to maintain their position and altitude by the torch (tentative) position. The drones (torch) are landed by a representative player as part of the closing ceremony. The drone with the LED gives the same effect as the torch.",
     "open4_title": "Declaration and Opening Declaration (20 minutes)",
     "open4_desc": "Kim Min-chan, the representative of the Korean national team, declared the opening of the VIP and started the drone pick competition."
   },
