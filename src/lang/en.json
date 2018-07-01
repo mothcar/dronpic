@@ -52,6 +52,80 @@
     "sup3": "International Droinpic Committee"
   },
 
+  "team_p": {
+    "title": "Major Games",
+    "team_match_title": "Racing Team Match",
+    "team_match_desc": "It is a three-to-three group racing competition using medium-sized aircraft (330mm or more). Turn the course five times and earn points (points) in the order of arrival. You have to change the battery once while flying the 5 wheels. Replacing the battery is possible only on the feet line, and only one dron at a time is possible to replace the battery (battery replacement). A game in which all team members participate in a strategic use of battery replacement. Given the operational time before start, the operational time can be within 5 minutes and the operational time can be up to 5 times. The obstacles used in the team exhibition are the same as the individual exhibition, using the standard drone gate of the Korea Drone Racing Association. (See 3-4.) The design of the track (course) must be changed in the individual exhibition. It is a measure to prevent a player who participates only in a team event from disadvantage without participating in a solo exhibition. The team with the most points in the game wins. If the drones are unable to fly because they can not fly, they will not get points. The points by rank are as follows."
+  },
+
+  "private_p": {
+    "title": "Major Games",
+    "private_match_title": "Racing Solo Match",
+    "private_match_desc": "A competitor who has been ranked three rounds before the race course must pass all obstacles in sequence in a manner known in advance. From the 32nd finals, the double elimination game will be played. In the finals, 2 pilots will race 5 times (1: 1) to judge the winner. The game will be played according to the rules of Korean DRRON Racing Association standard. (See 3-4). The course design will be made public so that players can practice. Pre-release can enhance the overall success of the athletes and enhance the overall performance of the athletes. Course length: 1.5km"
+  },
+
+  "accurate_p": {
+    "title": "Major Games",
+    "accurate_title": "Precision flying",
+    "accurate_desc": "A personal racing game using standard gas (200mm or more, 5-inch propeller) is used to determine the ranks in the order of passing through the narrow obstacles and passing the two wheels first. The total length of the course is 1KM (500m each). The valid pass area of ​​the gates used in precision flight is 80cm in height and 50cm in height, requiring precise control of the athlete. A total of 20 passages must pass and land correctly at the center of the landing point. Only one pilot at a time will fly and only rank purely. Even if the drones pass through the gate, time will be added to the final record if a portion of the drones touches the gate, and time will be added to the final record if they can not land within a 1M x 1M landing point. The small size of the drone is advantageous for flight racing, so the minimum size of the dron airframe is 200mm, and the pro paler size is at least 5 inches."
+  },
+
+  "free_p": {
+    "title": "주요경기",
+    "free_title": "프리스타일 FPV",
+    "free_desc": [
+      {"msg":"정해진 시간 내 음악에 맞추어 자유럽게 비행하는 경기."},
+      {"msg":" FPV(일인칭) 영상을 보며 파일럿이 비행하며, 그 영상을 심판이 보고 영상의 예술성과 기술성을 판정하여 점수 배정. "},
+      {"msg":"선수는 경기에 사용할 음악을 2분 내외로 제작하여 올림픽사무국으로 제출하여야 한다. "},
+      {"msg":"음악은 개최국과 참가국의 미풍양속을 해치지 않고 정치적이나 차별적인 메시지를 가지지 않아야 한다. "},
+      {"msg":"저작권 침해 발생의 책임은 선수에게 있다. 심판은 FPV영상을 보며 예술성, 기술성, 스타일 점수를 판정한다. "},
+      {"msg":"6명의 심판이 심사하며 최고와 최저 점수를 제외한 4명의 점수 평균을 내어 최종 점수를 가려낸다. "},
+      {"msg":"드론이 경기 중, 추락하여 비행불능 상태면 추락하기 전까지의 점수를 판정할 수 있다."}
+    ],
+
+    "eval1_title": "예술성",
+    "eval1_desc": [
+      {"msg":"드론이 음악의 박자에 맞추어 비행하였는가?"},
+      {"msg":"음악 주제와 드론 연기가 어울렸는가?"},
+      {"msg":"20점 영상미를 느낄 수 있는가?"}
+    ],
+    "eval1_point": "20점",
+    "eval2_title": "기술성",
+    "eval2_desc": [
+      {"msg":"사용한 기술의 전체적인 난이도는 어떠한가? 기술의 움직임이 자연스러운가?"},
+      {"msg":"20점 기술을 사용하다 실수 또는 추락하지 않았는가?"}
+    ],
+    "eval2_point": "20점",
+    "eval3_title": "스타일",
+    "eval3_desc": [
+      {"msg":"경기장의 기물을 유용하게 사용하였는가?기술 간의 이음새가 자연스러운가?"},
+      {"msg":"20점 창의성을 느낄 수 있는 비행인가?"},
+      {"msg":"같은 기술을 연속적/반복적으로 사용하지 않는가?"}
+    ],
+    "eval3_point": "20점"
+  },
+
+  "gravity_p": {
+    "title": "Major Games",
+    "gravity_title": "Gravity Gate",
+    "gravity_desc": [
+      {"msg":"A game that evaluates control skills around gravity gates within a set time frame. It is an event that combines a two-tier parallel rod of a gymnastics with a drone sport. It is an event that evaluates whether the drone freely moves the parallel columns of the gravity gate and spreads smoke."},
+      {"msg":"The FPV image is seen, and the referee evaluates how many skills can be sophisticated and artistically performed within a time limit of two minutes at the gravity gate through the FPV image."},
+      {"msg":"There is no maximum score limit for a sport, but if you repeat the same technique or fall on the way, you will be penalized. Six judges evaluate the total score by calculating the average score of four people excluding the highest and lowest scores among the six people."}
+    ]
+  },
+
+  "balloon_p": {
+    "title": "Major Games",
+    "balloon_title": "Balloon Shooting (Drones Clay Shooting)",
+    "balloon_desc": [
+      {"msg":"A game of throwing balloons of various sizes into a drones."},
+      {"msg":"The game is played in 10 rounds. Balloons per round get one shot, one shot. A player must burst a balloon in 10 seconds and can not turn and explode even if time is left. In the tenth round, two balloons (small / large) are raised, and one balloon is shot and then turned to burst the remaining balloons. After the shoot-out or failure of the shoot-out, the drone shall land at the waiting place or hover within 10 meters of the altitude until the start of the next round."},
+      {"msg":"If the drones are judged to have been hit by a balloon or have fallen by a balloon, the game can be continued using the reserve gas."},
+      {"msg":"The type, size, and number of balloons that should be broken for each player are the same. The size of the balloon is divided into small size and large size. Five small balloons and six large balloons are used. A small balloon shooter score higher and a player with a higher shot score will win. The maximum shoot-out score is 160 points, and if there is a tie or a tie, one more game is played."}
+    ]
+  },
+
   "rule_p": {
     "title": "Description of major events"
   },
