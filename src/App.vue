@@ -87,7 +87,6 @@
             </v-toolbar>
             <!-- Large **********************************************************-->
             <!-- Mobile *********************************************************-->
-            <nav>
             <div app class="hidden-md-and-up">
                 <v-toolbar fixed>
                     <router-link to="/">
@@ -120,7 +119,6 @@
             </v-toolbar>
 
         </div>
-        </nav>
         <!-- Mobile *********************************************************-->
 
         <!-- Navigation *********************************************************-->
@@ -242,13 +240,8 @@
                     </v-list-tile-content>
                 </v-menu>
             </v-list-tile>
-
-
-
         </v-list> </v-navigation-drawer>
-
         <!-- Navigation Drawer **************************************************-->
-
 
         <!-- Content ************************************************************-->
 
@@ -298,11 +291,14 @@
     color: #1976D2;
 }
 
+.nav-item {
+    color: #1976D2;
+}
+
 .v-btn__content {
     color: #1976D2;
-
-
 }
+
 .select-style {
     border: 1px solid #ccc;
     width: auto;
