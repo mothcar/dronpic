@@ -1,5 +1,14 @@
 <template>
+  <!-- 53 P -->
   <v-container>
+    <v-card height="4.5em">
+      <v-card-text>
+        <p class="headline text-lg-center">
+          {{ $lang.committee.organization }}
+        </p>
+      </v-card-text>
+    </v-card>
+
     <div class="fp-container">
         <img src="../assets/org.jpg"/>
     </div>

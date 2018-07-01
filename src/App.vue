@@ -69,7 +69,7 @@
                 <v-menu offset-y open-on-hover>
                     <v-btn slot="activator" flat="flat">{{ $lang.menu.operating }}</v-btn>
                     <v-list>
-                        <v-list-tile v-for="(item, index) in commitee" :key="index" @click="" :to="item.route">
+                        <v-list-tile v-for="(item, index) in committee" :key="index" @click="" :to="item.route">
                             <v-list-tile-title>{{ item.title }}</v-list-tile-title>
                         </v-list-tile>
                     </v-list>
@@ -233,7 +233,7 @@
                     <v-list-tile-title slot="activator" flat="flat">{{ $lang.menu.operating }}</v-list-tile-title>
                     <v-list-tile-content>
                         <v-list>
-                            <v-list-tile v-for="(item, index) in commitee" :key="index" @click="" :to="item.route">
+                            <v-list-tile v-for="(item, index) in committee" :key="index" @click="" :to="item.route">
                                 <v-list-tile-title>{{ item.title }}</v-list-tile-title>
                             </v-list-tile>
                         </v-list>
@@ -398,7 +398,7 @@ export default {
             { title: '7', route:'/balloon' },
             { title: '8', route:'/junior' }
         ],
-        commitee: [
+        committee: [
             { title: '1', route:'/outline' },
             { title: '2', route: '/org' }
         ]
@@ -435,8 +435,8 @@ export default {
             this.games[6].title = this.$lang.games.Balloon
             this.games[7].title = this.$lang.games.Junior
 
-            this.commitee[0].title = this.$lang.commitee.outline
-            this.commitee[1].title = this.$lang.commitee.organization
+            this.committee[0].title = this.$lang.committee.outline
+            this.committee[1].title = this.$lang.committee.organization
 
 
         } // changeLang
@@ -453,8 +453,8 @@ export default {
         this.games[6].title = this.$lang.games.Balloon
         this.games[7].title = this.$lang.games.Junior
 
-        this.commitee[0].title = this.$lang.commitee.outline
-        this.commitee[1].title = this.$lang.commitee.organization
+        this.committee[0].title = this.$lang.committee.outline
+        this.committee[1].title = this.$lang.committee.organization
 
         console.log('create method ... done')
     }

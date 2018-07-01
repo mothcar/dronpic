@@ -36,7 +36,11 @@
     "Junior":"학생부 토이드론 대회"
   },
 
-  "commitee": {
+  "rule_p": {
+    "title": "주요 경기종목 설명"
+  },
+
+  "committee": {
     "outline":"개요",
     "organization":"조직도"
   },

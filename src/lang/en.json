@@ -46,7 +46,11 @@
 
   },
 
-  "commitee": {
+  "rule_p": {
+    "title": "Description of major events"
+  },
+
+  "committee": {
     "outline":"Outline",
     "organization":"Organization"
   },
