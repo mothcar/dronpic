@@ -76,6 +76,32 @@
     "fac4_desc": "The first International Drone Pick game uses the Korean Drone Racing Association standard dragon racing gate (obstacle) or the same size obstacle, and the obstacle other than the standard gate can be used for the interest of the game."
   },
 
+  "opening_p": {
+    "title": "Opening Ceremony",
+    "open1_title": "Congratulatory performance (1 ~ 1.5 hours)",
+    "open1_desc": "The celebration of the K-Pop Star and the fourth industry performance of the drones and robots. K-Pop star performances have the advantage of attracting foreign K-Pop fans to dronesports.",
+    "open2_title": "Entry to the athletes (20 minutes)",
+    "open2_desc": "As with the Olympic Games, drone picks are held in the same order as the Olympic Games. The organizers will explain the names of the participating countries and the names of the major players.",
+    "open3_title": "Drones (Torch relay) (30 minutes)",
+    "open3_desc": "Leading drones (torch) flying for three days during the drone pick are controlled by the runners representing each country in order to maintain their position and altitude by the torch (tentative) position. The drones (torch) are landed by a representative player as part of the closing ceremony. The dron with the LED gives the same effect as the torch.",
+    "open4_title": "Declaration and Opening Declaration (20 minutes)",
+    "open4_desc": "Kim Min-chan, the representative of the Korean national team, declared the opening of the VIP and started the drone pick competition."
+  },
+
+  "closing_p": {
+    "title": "Closing Ceremony",
+    "close1_title": "Award Ceremony (30 minutes)",
+    "close1_desc": "The awards ceremony of seven events will be held at the closing ceremony for three days.",
+    "close2_title": "Performance (30 minutes)",
+    "close2_desc": "Short performances to ease the pain of ending drone picks.",
+    "close3_title": "Closing declaration (30 minutes)",
+    "close3_desc": "At the closing ceremony and the opening ceremony, the torch drones will complete the entire schedule by landing and turning off the athletes' representatives. If the host country or region of the next drone pick has been selected, greetings or performances will be held at the next host country."
+  },
+
+  "award_p": {
+    "title": "Awards Ceremony"
+  },
+
   "committee": {
     "outline":"Outline",
     "organization":"Organization"
