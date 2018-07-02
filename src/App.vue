@@ -245,48 +245,53 @@
 
         <!-- Content ************************************************************-->
 
-            <v-content >
+        <v-content >
 
-                <!-- fill-height -->
-                <!-- <v-layout flex align-center justify-center> -->
-                <router-view/>
-                <!-- </v-layout> -->
-            </v-content>
+            <!-- fill-height -->
+            <!-- <v-layout flex align-center justify-center> -->
+            <router-view/>
+            <!-- </v-layout> -->
+        </v-content>
 
         <!-- Content ************************************************************-->
 
 
 
-        <!-- Footer *************************************************************-->
-        <v-footer height="auto">
-            <v-card
-            flat
-            tile
-            class="indigo lighten-1 white--text text-xs-center" >
-            <v-card-text>
-                <!-- <v-btn
-                v-for="icon in icons"
-                :key="icon"
-                icon
-                class="mx-3 white"
-                >
-                <v-icon size="24px">{{ icon }}</v-icon> </v-btn> -->
-            </v-card-text>
-            <v-card-text class="white--text pt-0">
-                {{ $lang.footer.description}}
-            </v-card-text>
-            <v-card-text class="white--text">
-                Copyright &copy;2018 DRONPIC. All rights reserved
-            </v-card-text> </v-card>
+        <v-footer height="auto" >
+            <v-layout justify-center row wrap>
+                <v-flex class="indigo lighten-1 white--text text-xs-center pa-5"
+                lighten-2
+                py-3
+                text-xs-center
+                white--text
+                xs12 >
+                <p class="text-sm-left">
+                    {{ $lang.footer.address }}
+                </p>
+                <p class="text-sm-left">
+                    {{ $lang.footer.contact }}
+                </p>
 
-        </v-footer>
-        <!-- Footer *************************************************************-->
+            </v-flex>
 
-    </v-app>
+            <v-flex class="indigo lighten-1 white--text text-xs-center"
+            lighten-2
+            py-3
+            text-xs-center
+            white--text
+            xs12 >
+            {{ $lang.footer.copyright }}
+        </v-flex>
+
+        </v-layout>
+    </v-footer>
+
+</v-app>
 
 </template>
 
 <style>
+
 .v-list__tile__title{
     color: #1976D2;
 }
