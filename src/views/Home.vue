@@ -46,9 +46,9 @@
     <v-parallax :src="require('@/assets/cloud.jpg')">
 
       <v-layout align-center column justify-center>
-        <h2 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.innovation}}</h2>
-        <h2 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.beOne}}</h2>
-        <h2 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.youngDream}}</h2>
+        <h3 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.innovation}}</h3>
+        <h3 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.beOne}}</h3>
+        <h3 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.youngDream}}</h3>
         <br />
         <h4 class="font-weight-bold p_font_shadow">{{ $lang.main_comments.likeBee}}</h4>
       </v-layout>
