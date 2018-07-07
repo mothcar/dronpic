@@ -266,6 +266,9 @@
                 white--text
                 xs12 >
                 <p class="text-sm-left">
+                    {{ $lang.footer.name }}
+                </p>
+                <p class="text-sm-left">
                     {{ $lang.footer.address }}
                 </p>
                 <p class="text-sm-left">
